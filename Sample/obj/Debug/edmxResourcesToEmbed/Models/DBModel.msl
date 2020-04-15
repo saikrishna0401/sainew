@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JquerAjaxDBModelStoreContainer" CdmEntityContainer="JquerAjaxDBEntities">
+    <EntitySetMapping Name="Emp_Details">
+      <EntityTypeMapping TypeName="JquerAjaxDBModel.Emp_Detail">
+        <MappingFragment StoreEntitySet="Emp Details">
+          <ScalarProperty Name="EMpl_ID" ColumnName="EMpl ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
